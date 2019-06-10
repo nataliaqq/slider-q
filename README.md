@@ -43,7 +43,7 @@ Vue.use(SliderQ)
 
 |Prop             |Default |Description|
 |-----------------|-----|-----------|
-|`minNumSlides`   |1    |count of items to showed when window is small|
-|`maxNumSlides`   |4    |count of items to show when window is pretty hide|
+|`minNumSlides`   |1    |count of items to be in viewpoint when window is small|
+|`maxNumSlides`   |4    |count of items to be in viewpoint when window is hide|
 |`minSizeOfSlide` |150  |px |
 |`isCentered`     |false|center items if actual count is less then maximum|
