@@ -14,7 +14,7 @@ npm install slider-q
 
 ```
 
-2. Add to project (main.js):
+2. Add to project globally (main.js):
 
 ```bash
 import SliderQ from 'slider-q'
@@ -22,6 +22,21 @@ import SliderQ from 'slider-q'
 Vue.use(SliderQ)
 
 ```
+
+Add locally to the component:
+
+```bash
+import { SliderQ, Slide } from 'slider-q'
+
+export default {
+	components: {
+		SliderQ,
+		Slide
+	}
+}
+
+```
+
 
 ### Use SliderQ
 
