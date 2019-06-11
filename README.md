@@ -29,10 +29,10 @@ Add locally to the component:
 import { SliderQ, Slide } from 'slider-q'
 
 export default {
-	components: {
-		SliderQ,
-		Slide
-	}
+    components: {
+        SliderQ,
+        Slide
+    }
 }
 
 ```
