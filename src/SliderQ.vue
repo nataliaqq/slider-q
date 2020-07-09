@@ -97,7 +97,6 @@ export default {
 			return {
 				flexBasis: 'calc(100% / ' + num + ' - 20px)',
 				minWidth: 'calc(100% / ' + num + ' - 20px)',
-				margin: '0 10px',
 				transition: this.touchpathX ? '' : 'transform 0.7s ease'
 			}
 		},
