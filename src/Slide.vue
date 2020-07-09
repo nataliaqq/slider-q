@@ -2,6 +2,7 @@
 	<div
 		:style="[$sliderQ.sliderItem, $sliderQ.basic]"
 		class="slide"
+		v-on="$listeners"
 	>
 		<slot />
 	</div>		

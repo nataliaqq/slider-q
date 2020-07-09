@@ -14,7 +14,7 @@
 		@mouseleave="mouseleave($event)"
 	>
 		
-		<transition name="fade">
+		<transition name="fade" v-if="arrows">
 			<div
 				class="slider-arrow prev"
 				@click="prev()"
@@ -31,7 +31,7 @@
 			<slot />
 		</div>
 
-		<transition name="fade">
+		<transition name="fade" v-if="arrows">
 			<div
 				class="slider-arrow next"
 				@click="next()"
@@ -85,6 +85,10 @@ export default {
 		minSizeOfSlide: {
 			type: Number,
 			default: 150
+		},
+		arrows: {
+			type: Boolean,
+			default: true
 		}
 	},
 	computed: {

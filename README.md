@@ -62,3 +62,4 @@ export default {
 |`maxNumSlides`   |4    |count of items to be in viewpoint when window is hide|
 |`minSizeOfSlide` |150  |px |
 |`isCentered`     |false|center items if actual count is less then maximum|
+|`arrows`         |true|display arrows for navigation|
