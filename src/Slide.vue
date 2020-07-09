@@ -1,6 +1,7 @@
 <template>
 	<div
 		:style="[$sliderQ.sliderItem, $sliderQ.basic]"
+		class="slide"
 	>
 		<slot />
 	</div>		
@@ -19,6 +20,7 @@ export default {
 </script>
 
 <style scoped>
-
-
+	.slide {
+		margin: 0 10px;
+	}
 </style>
