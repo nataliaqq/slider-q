@@ -1,6 +1,7 @@
 <template>
 	<div
 		:style="[$sliderQ.sliderItem, $sliderQ.basic]"
+		v-on="$listeners"
 	>
 		<slot />
 	</div>		
